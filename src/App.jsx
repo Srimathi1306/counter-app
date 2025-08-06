@@ -14,13 +14,13 @@ export default function App(props) {
       </div>
       <button
         onClick={increment}
-        className="font-bold text-4xl w-16 h-16 bg-green-400 hover:bg-green-300 text-white rounded-full shadow-md transition"
+        className=" rounded hover:border hover:border-blue-500 font-bold text-4xl w-16 h-16 bg-green-400 hover:bg-green-300 text-white  delay-300 rounded-full shadow-md transition"
       >
         +
       </button>
       <button
         onClick={decrement}
-        className="font-bold text-4xl w-16 h-16 bg-red-400 hover:bg-red-300 text-white rounded-full shadow-md transition"
+        className="rounded hover:border hover:border-blue-500 font-bold text-4xl w-16 h-16 bg-red-400 hover:bg-red-300 text-white delay-300 rounded-full shadow-md transition"
       >
         -
       </button>
