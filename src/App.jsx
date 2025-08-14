@@ -10,7 +10,7 @@ export default function App(props) {
   return (
     <div className="flex flex-col justify-center items-center gap-4 m-8 ">
       <div className="p-8 bg-blue-100 h-25 w-25 m-10 rounded-full flex flex-row justify-center items-center">
-        <h1 className="font-bold text-3xl transition-transform duration-200 ease-in-out transform scale-105">
+        <h1 className="font-bold text-4xl text-gray-800 transition-transform duration-200 ease-in-out transform hover:scale-110 hover:text-5xl">
           {" "}
           {count}
         </h1>
