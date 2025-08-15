@@ -9,7 +9,7 @@ export default function App(props) {
   }
   return (
     <div className="flex flex-col justify-center items-center gap-4 m-8 ">
-      <div className="p-8 bg-blue-100 h-25 w-25 m-10 rounded-full flex flex-row justify-center items-center">
+      <div className="p-8 bg-blue-100 h-25 w-25 m-10 rounded-full flex flex-row justify-center items-center hover:scale-110 hover:bg-blue-200">
         <h1 className="font-bold text-4xl text-gray-800 transition-transform duration-200 ease-in-out transform hover:scale-110 hover:text-5xl">
           {" "}
           {count}
@@ -20,14 +20,14 @@ export default function App(props) {
           <button
             onClick={increment}
             title="Increase"
-            className=" rounded hover:border hover:border-blue-500 font-bold text-4xl w-16 h-16 bg-green-400 hover:bg-green-300 text-white  delay-300 rounded-full shadow-md transition"
+            className=" rounded hover:border hover:border-blue-500 font-bold text-4xl w-16 h-16 bg-green-400 hover:bg-green-500 text-white  delay-300 rounded-full shadow-md transition"
           >
             +
           </button>
           <button
             onClick={decrement}
             title="decrease"
-            className="rounded hover:border hover:border-blue-500 font-bold text-4xl w-16 h-16 bg-red-400 hover:bg-red-300 text-white delay-300 rounded-full shadow-md transition"
+            className="rounded hover:border hover:border-blue-500 font-bold text-4xl w-16 h-16 bg-red-400 hover:bg-red-500 text-white delay-300 rounded-full shadow-md transition"
           >
             -
           </button>
