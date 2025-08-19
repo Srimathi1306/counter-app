@@ -15,7 +15,7 @@ export default function App(props) {
           {count}
         </h1>
       </div>
-      <div className=" border-2 border-gray-400 m-8 p-8">
+      <div className=" border-2 border-gray-400 m-8 p-8 bg-gray-100">
         <div className="flex gap-4">
           <button
             onClick={increment}
